@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Backstories __________-->
+
+    <!--_____ Factions _____-->
+
+    <!--___ Pre-War Peoples Republic of China ___-->
+
+	<!--__ Adults __-->
+
+    <!--_ Chinese Civilians _-->
+
+    <!-- Chinese Power Plant Technician -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_PowerPlant_Tech</defName>
+        <identifier>FCP_Backstory_China_Citizen_PowerPlant_Tech</identifier>
+        <slot>Adulthood</slot>
+        <title>Power Plant Technician</title>
+        <titleShort>Technician</titleShort>
+        <description>Maintained the city’s reactors and generators, keeping the lights on during blackouts and air raids. Skilled in electrical repairs and crisis management.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Theater Performer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Theater_Performer</defName>
+        <identifier>FCP_Backstory_China_Citizen_Theater_Performer</identifier>
+        <slot>Adulthood</slot>
+        <title>Theater Performer</title>
+        <titleShort>Performer</titleShort>
+        <description>Acted in patriotic plays and operas, entertaining citizens and soldiers alike. Developed a flair for drama and a talent for inspiring hope in dark times.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Street Mechanic -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Street_Mechanic</defName>
+        <identifier>FCP_Backstory_China_Citizen_Street_Mechanic</identifier>
+        <slot>Adulthood</slot>
+        <title>Street Mechanic</title>
+        <titleShort>Mechanic</titleShort>
+        <description>Repaired bicycles, scooters, and delivery trucks for neighbors and local businesses. Learned resourcefulness and the art of improvisation with limited parts.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Public Bath Attendant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_PublicBath_Attendant</defName>
+        <identifier>FCP_Backstory_China_Citizen_PublicBath_Attendant</identifier>
+        <slot>Adulthood</slot>
+        <title>Public Bath Attendant</title>
+        <titleShort>Bath Attendant</titleShort>
+        <description>Kept the city’s public baths clean and welcoming, offering comfort and community in troubled times. Learned the value of hygiene and friendly conversation.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Construction>1</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Street Musician -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Street_Musician</defName>
+        <identifier>FCP_Backstory_China_Citizen_Street_Musician</identifier>
+        <slot>Adulthood</slot>
+        <title>Street Musician</title>
+        <titleShort>Musician</titleShort>
+        <description>Played patriotic songs and folk tunes in city squares, lifting spirits and spreading hope. Developed musical talent and a strong sense of community.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Tram Operator -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Tram_Operator</defName>
+        <identifier>FCP_Backstory_China_Citizen_Tram_Operator</identifier>
+        <slot>Adulthood</slot>
+        <title>Tram Operator</title>
+        <titleShort>Tram Operator</titleShort>
+        <description>Operated city trams, transporting workers and families through busy streets and blackout drills. Learned punctuality, patience, and the importance of keeping the city moving.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Librarian -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Librarian</defName>
+        <identifier>FCP_Backstory_China_Citizen_Librarian</identifier>
+        <slot>Adulthood</slot>
+        <title>City Librarian</title>
+        <titleShort>Librarian</titleShort>
+        <description>Managed a local library, helping citizens find information and escape into stories. Developed a love for learning and a talent for organization.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Tailor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Tailor</defName>
+        <identifier>FCP_Backstory_China_Citizen_Tailor</identifier>
+        <slot>Adulthood</slot>
+        <title>Neighborhood Tailor</title>
+        <titleShort>Tailor</titleShort>
+        <description>Sewed and mended clothes for neighbors and local shops, making do with limited materials. Developed creativity and skill in handiwork.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Construction>1</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Bookstore Clerk -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Bookstore_Clerk</defName>
+        <identifier>FCP_Backstory_China_Citizen_Bookstore_Clerk</identifier>
+        <slot>Adulthood</slot>
+        <title>Bookstore Clerk</title>
+        <titleShort>Bookstore Clerk</titleShort>
+        <description>Worked at a city bookstore, recommending novels and educational texts to customers. Developed strong communication skills and a love for literature.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Museum Guide -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Museum_Guide</defName>
+        <identifier>FCP_Backstory_China_Citizen_Museum_Guide</identifier>
+        <slot>Adulthood</slot>
+        <title>Museum Guide</title>
+        <titleShort>Museum Guide</titleShort>
+        <description>Led tours at the city museum, sharing stories of history and culture with visitors. Developed public speaking skills and a passion for education.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Postal Worker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Postal_Worker</defName>
+        <identifier>FCP_Backstory_China_Citizen_Postal_Worker</identifier>
+        <slot>Adulthood</slot>
+        <title>Postal Worker</title>
+        <titleShort>Postal Worker</titleShort>
+        <description>Delivered letters and packages across the city, braving air raids and blackouts. Learned the value of perseverance and community connection.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Street Sweeper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Street_Sweeper</defName>
+        <identifier>FCP_Backstory_China_Citizen_Street_Sweeper</identifier>
+        <slot>Adulthood</slot>
+        <title>Street Sweeper</title>
+        <titleShort>Street Sweeper</titleShort>
+        <description>Kept city streets clean and clear, even during air raid debris and ration shortages. Developed a strong work ethic and pride in public service.</description>
+        <skillGains>
+            <Plants>1</Plants>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Textile Worker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Textile_Worker</defName>
+        <identifier>FCP_Backstory_China_Citizen_Textile_Worker</identifier>
+        <slot>Adulthood</slot>
+        <title>Textile Worker</title>
+        <titleShort>Textile Worker</titleShort>
+        <description>Produced uniforms and blankets for soldiers and civilians, working long hours at the loom. Learned patience, precision, and the importance of teamwork.</description>
+        <skillGains>
+            <Artistic>1</Artistic>
+            <Construction>2</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese News Reporter -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_News_Reporter</defName>
+        <identifier>FCP_Backstory_China_Citizen_News_Reporter</identifier>
+        <slot>Adulthood</slot>
+        <title>News Reporter</title>
+        <titleShort>Reporter</titleShort>
+        <description>Reported on local events and war news, spreading Party-approved stories and keeping citizens informed. Skilled in writing, interviewing, and public speaking.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Restaurant Cook -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Restaurant_Cook</defName>
+        <identifier>FCP_Backstory_China_Citizen_Restaurant_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>Restaurant Cook</title>
+        <titleShort>Cook</titleShort>
+        <description>Prepared meals for hungry workers and soldiers, making the most of rationed ingredients. Developed creativity in the kitchen and a reputation for hearty, comforting food.</description>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Hospital Nurse -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Hospital_Nurse</defName>
+        <identifier>FCP_Backstory_China_Citizen_Hospital_Nurse</identifier>
+        <slot>Adulthood</slot>
+        <title>State Hospital Nurse</title>
+        <titleShort>Nurse</titleShort>
+        <description>Cared for wounded civilians and soldiers in crowded hospitals, working long shifts during air raids. Skilled in first aid, compassion, and crisis management.</description>
+        <skillGains>
+            <Medicine>3</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Schoolchild -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Schoolchild</defName>
+        <identifier>FCP_Backstory_China_Citizen_Schoolchild</identifier>
+        <slot>Adulthood</slot>
+        <title>State Schoolchild</title>
+        <titleShort>Schoolchild</titleShort>
+        <description>Grew up attending state-run schools, learning Party slogans and practicing air raid drills. Quick to memorize lessons and eager to please teachers.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Apartment Caretaker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Apartment_Caretaker</defName>
+        <identifier>FCP_Backstory_China_Citizen_Apartment_Caretaker</identifier>
+        <slot>Adulthood</slot>
+        <title>Apartment Caretaker</title>
+        <titleShort>Caretaker</titleShort>
+        <description>Maintained communal housing blocks, fixing leaks and keeping the lights on during blackouts. Learned practical skills and the art of neighborly cooperation.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Party Official -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Party_Official</defName>
+        <identifier>FCP_Backstory_China_Citizen_Party_Official</identifier>
+        <slot>Adulthood</slot>
+        <title>Local Party Official</title>
+        <titleShort>Party Official</titleShort>
+        <description>Oversaw neighborhood meetings and enforced Party policies. Skilled in persuasion, organization, and keeping the community loyal to the state.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese City Gardener -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_City_Gardener</defName>
+        <identifier>FCP_Backstory_China_Citizen_City_Gardener</identifier>
+        <slot>Adulthood</slot>
+        <title>City Gardener</title>
+        <titleShort>Gardener</titleShort>
+        <description>Tended public parks and rooftop gardens, growing food and flowers for the community. Developed patience, a green thumb, and pride in beautifying the city.</description>
+        <skillGains>
+            <Plants>3</Plants>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Agricultural Worker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Agricultural_Worker</defName>
+        <identifier>FCP_Backstory_China_Citizen_Agricultural_Worker</identifier>
+        <slot>Adulthood</slot>
+        <title>Collective Farm Worker</title>
+        <titleShort>Farm Worker</titleShort>
+        <description>Tended rice paddies and vegetable fields for the collective, working long hours to feed the nation and the army. Learned resilience and the value of cooperation.</description>
+        <skillGains>
+            <Plants>3</Plants>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Street Vendor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Street_Vendor</defName>
+        <identifier>FCP_Backstory_China_Citizen_Street_Vendor</identifier>
+        <slot>Adulthood</slot>
+        <title>Street Vendor</title>
+        <titleShort>Vendor</titleShort>
+        <description>Sold steamed buns and tea in the bustling city streets, trading news and rumors with customers and soldiers. Developed a sharp wit and a knack for negotiation.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Cooking>2</Cooking>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Utility Worker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Utility_Worker</defName>
+        <identifier>FCP_Backstory_China_Citizen_Utility_Worker</identifier>
+        <slot>Adulthood</slot>
+        <title>Utility Worker</title>
+        <titleShort>Utility Worker</titleShort>
+        <description>Maintained power lines and water pipes in the city, keeping essential services running during air raids and blackouts. Skilled in repairs and crisis management.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Entertainer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Entertainer</defName>
+        <identifier>FCP_Backstory_China_Citizen_Entertainer</identifier>
+        <slot>Adulthood</slot>
+        <title>State Entertainer</title>
+        <titleShort>Entertainer</titleShort>
+        <description>Performed patriotic songs and operas for citizens and soldiers, boosting morale and spreading Party messages. Talented in music and public speaking.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Black Market Trader -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Black_Market_Trader</defName>
+        <identifier>FCP_Backstory_China_Citizen_Black_Market_Trader</identifier>
+        <slot>Adulthood</slot>
+        <title>Black Market Trader</title>
+        <titleShort>Trader</titleShort>
+        <description>Operated in the shadows, trading rationed goods and forbidden items. Learned caution, secrecy, and the art of making deals under the watchful eyes of the state.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Factory Worker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Factory_Worker</defName>
+        <identifier>FCP_Backstory_China_Citizen_Factory_Worker</identifier>
+        <slot>Adulthood</slot>
+        <title>PLA Munitions Factory Worker</title>
+        <titleShort>Factory Worker</titleShort>
+        <description>Worked long shifts assembling rifles and power cells for the war effort. Learned discipline, efficiency, and the importance of loyalty to the state.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Propaganda Artist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Propaganda_Artist</defName>
+        <identifier>FCP_Backstory_China_Citizen_Propaganda_Artist</identifier>
+        <slot>Adulthood</slot>
+        <title>Propaganda Artist</title>
+        <titleShort>Artist</titleShort>
+        <description>Created stirring posters and patriotic murals, inspiring citizens to support the war and fear the American invaders. Talented in art and persuasion.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese State Doctor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_State_Doctor</defName>
+        <identifier>FCP_Backstory_China_Citizen_State_Doctor</identifier>
+        <slot>Adulthood</slot>
+        <title>State Hospital Doctor</title>
+        <titleShort>Doctor</titleShort>
+        <description>Practiced medicine in a crowded city hospital, treating wounds and radiation sickness. Dedicated to public health and the Party’s ideals.</description>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese State Teacher -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_State_Teacher</defName>
+        <identifier>FCP_Backstory_China_Citizen_State_Teacher</identifier>
+        <slot>Adulthood</slot>
+        <title>State School Teacher</title>
+        <titleShort>Teacher</titleShort>
+        <description>Taught children about science, history, and the virtues of the People’s Republic. Led air raid drills and encouraged vigilance against foreign spies.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese State Engineer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_State_Engineer</defName>
+        <identifier>FCP_Backstory_China_Citizen_State_Engineer</identifier>
+        <slot>Adulthood</slot>
+        <title>State Engineer</title>
+        <titleShort>Engineer</titleShort>
+        <description>Designed and maintained infrastructure for the war effort, from power plants to bunkers. Analytical and inventive, loyal to the Party’s vision.</description>
+        <skillGains>
+            <Construction>4</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Radio Host -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Radio_Host</defName>
+        <identifier>FCP_Backstory_China_Citizen_Radio_Host</identifier>
+        <slot>Adulthood</slot>
+        <title>State Radio Host</title>
+        <titleShort>Radio Host</titleShort>
+        <description>Broadcast patriotic news and war bulletins, keeping citizens informed and motivated. Skilled in public speaking and propaganda.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Police Officer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Police</defName>
+        <identifier>FCP_Backstory_China_Citizen_Police</identifier>
+        <slot>Adulthood</slot>
+        <title>State Police Officer</title>
+        <titleShort>Police</titleShort>
+        <description>Patrolled city streets, enforcing order and rooting out dissent. Trained in investigation, negotiation, and self-defense.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Homemaker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Homemaker</defName>
+        <identifier>FCP_Backstory_China_Citizen_Homemaker</identifier>
+        <slot>Adulthood</slot>
+        <title>State Homemaker</title>
+        <titleShort>Homemaker</titleShort>
+        <description>Managed a household, raised children, and kept the family safe during air raids. Skilled in cooking, cleaning, and rationing supplies.</description>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Student -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Student</defName>
+        <identifier>FCP_Backstory_China_Citizen_Student</identifier>
+        <slot>Adulthood</slot>
+        <title>State University Student</title>
+        <titleShort>Student</titleShort>
+        <description>Attended university, studying engineering or medicine to serve the Republic. Quick to learn, but inexperienced in the realities of war.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese Market Vendor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Citizen_Market_Vendor</defName>
+        <identifier>FCP_Backstory_China_Citizen_Market_Vendor</identifier>
+        <slot>Adulthood</slot>
+        <title>Market Vendor</title>
+        <titleShort>Vendor</titleShort>
+        <description>Sold food and supplies in the city market, bartering with neighbors and soldiers alike. Developed strong communication skills and a knack for persuasion.</description>
+        <skillGains>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!--_ Chinese PLA _-->
+
+    <!-- Chinese PLA Forward Observer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Forward_Observer</defName>
+        <identifier>FCP_Backstory_China_Army_Forward_Observer</identifier>
+        <slot>Adulthood</slot>
+        <title>Forward Observer</title>
+        <titleShort>Observer</titleShort>
+        <description>Directed artillery and air strikes from the front lines, relaying coordinates under fire. Trained in reconnaissance, radio operation, and survival in hostile territory.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Combat Cook -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Combat_Cook</defName>
+        <identifier>FCP_Backstory_China_Army_Combat_Cook</identifier>
+        <slot>Adulthood</slot>
+        <title>Combat Cook</title>
+        <titleShort>Cook</titleShort>
+        <description>Prepared hot meals for troops in the field, often under bombardment. Learned to improvise with rations and keep morale high with a warm bowl of soup.</description>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Psychological Warfare Operative -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Psych_Warfare_Operative</defName>
+        <identifier>FCP_Backstory_China_Army_Psych_Warfare_Operative</identifier>
+        <slot>Adulthood</slot>
+        <title>Psychological Warfare Operative</title>
+        <titleShort>PsyOps</titleShort>
+        <description>Spread propaganda and misinformation to demoralize enemy troops and sway civilians. Skilled in persuasion, deception, and psychological tactics.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Field Engineer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Field_Engineer</defName>
+        <identifier>FCP_Backstory_China_Army_Field_Engineer</identifier>
+        <slot>Adulthood</slot>
+        <title>Field Engineer</title>
+        <titleShort>Field Engineer</titleShort>
+        <description>Repaired vehicles, weapons, and communications equipment on the battlefield. Adapted quickly to changing conditions and resource shortages.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Battlefield Medic -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Battlefield_Medic</defName>
+        <identifier>FCP_Backstory_China_Army_Battlefield_Medic</identifier>
+        <slot>Adulthood</slot>
+        <title>Battlefield Medic</title>
+        <titleShort>Medic</titleShort>
+        <description>Rushed into danger to treat wounded soldiers under fire, often improvising with limited supplies. Trained in trauma care and evacuation procedures.</description>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Artillery Crew -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Artillery_Crew</defName>
+        <identifier>FCP_Backstory_China_Army_Artillery_Crew</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Artillery Crew</title>
+        <titleShort>Artillery Crew</titleShort>
+        <description>Operated heavy artillery batteries, bombarding enemy positions from afar. Skilled in teamwork, calculation, and surviving counter-battery fire in the war’s fiercest battles.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Intellectual>2</Intellectual>
+            <Construction>1</Construction>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Anti-Power Armor Specialist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_AntiPowerArmor_Specialist</defName>
+        <identifier>FCP_Backstory_China_Army_AntiPowerArmor_Specialist</identifier>
+        <slot>Adulthood</slot>
+        <title>Anti-Power Armor Specialist</title>
+        <titleShort>Anti-Armor Specialist</titleShort>
+        <description>Trained to counter American T-51b power armor units, using specialized weapons and tactics. Experienced in urban ambushes and sabotage missions.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Chemical Warfare Trooper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_ChemicalWarfare_Trooper</defName>
+        <identifier>FCP_Backstory_China_Army_ChemicalWarfare_Trooper</identifier>
+        <slot>Adulthood</slot>
+        <title>Chemical Warfare Trooper</title>
+        <titleShort>Chem Trooper</titleShort>
+        <description>Deployed chemical agents and defended against gas attacks in the trenches. Trained in hazardous environments and emergency medical response.</description>
+        <skillGains>
+            <Medicine>2</Medicine>
+            <Shooting>2</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Sapper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Sapper</defName>
+        <identifier>FCP_Backstory_China_Army_Sapper</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Sapper</title>
+        <titleShort>Sapper</titleShort>
+        <description>Specialized in demolitions and mine-laying, clearing obstacles and sabotaging enemy fortifications. Courageous and skilled in explosives under fire.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Intellectual>2</Intellectual>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Infantry -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Infantry</defName>
+        <identifier>FCP_Backstory_China_Army_Infantry</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Infantry</title>
+        <titleShort>Infantry</titleShort>
+        <description>Served as a foot soldier in the People’s Liberation Army during the brutal Sino-American War. Fought in the frozen wastes of Alaska and the ruins of Shanghai, surviving on discipline and propaganda.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>2</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Officer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Officer</defName>
+        <identifier>FCP_Backstory_China_Army_Officer</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Officer</title>
+        <titleShort>Officer</titleShort>
+        <description>Led squads through the chaos of the Sino-American War, enforcing loyalty and discipline. Experienced in urban combat and countering American power armor assaults.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Stealth Trooper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Stealth_Trooper</defName>
+        <identifier>FCP_Backstory_China_Army_Stealth_Trooper</identifier>
+        <slot>Adulthood</slot>
+        <title>Chinese Stealth Trooper</title>
+        <titleShort>Stealth Trooper</titleShort>
+        <description>Elite infiltrator equipped with prototype stealth suits, trained for sabotage and assassination behind enemy lines. Feared by American GIs and legendary in the propaganda reels.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>4</Melee>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Field Medic -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Field_Medic</defName>
+        <identifier>FCP_Backstory_China_Army_FieldMedic</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Field Medic</title>
+        <titleShort>Field Medic</titleShort>
+        <description>Provided emergency care to wounded comrades in the trenches and bombed-out cities. Trained in battlefield medicine and chemical warfare survival.</description>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Engineer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Engineer</defName>
+        <identifier>FCP_Backstory_China_Army_Engineer</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Combat Engineer</title>
+        <titleShort>Engineer</titleShort>
+        <description>Built fortifications and sabotaged enemy supply lines during the war. Specialized in explosives, field repairs, and tunnel warfare beneath the battlefields.</description>
+        <skillGains>
+            <Construction>5</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Military Police -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Military_Police</defName>
+        <identifier>FCP_Backstory_China_Army_Military_Police</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Military Police</title>
+        <titleShort>Military Police</titleShort>
+        <description>Maintained order and discipline among troops, rooting out spies and enforcing martial law. Skilled in interrogation and close-quarters combat.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Melee>3</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Scout -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Scout</defName>
+        <identifier>FCP_Backstory_China_Army_Scout</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Scout</title>
+        <titleShort>Scout</titleShort>
+        <description>Operated ahead of the main force, gathering intelligence on American troop movements and power armor deployments. Trained in stealth, navigation, and survival in hostile territory.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Radio Operator -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Radio_Operator</defName>
+        <identifier>FCP_Backstory_China_Army_RadioOperator</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Radio Operator</title>
+        <titleShort>Radio Operator</titleShort>
+        <description>Kept units connected during the chaos of battle, relaying orders and calling for artillery strikes. Skilled in encryption and countering American electronic warfare.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Conscriptee -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Conscriptee</defName>
+        <identifier>FCP_Backstory_China_Army_Conscriptee</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Conscriptee</title>
+        <titleShort>Conscriptee</titleShort>
+        <description>Drafted into the PLA as the war escalated, given basic training before being sent to the front. Experience marked by propaganda, fear, and the struggle to survive the American advance.</description>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Melee>1</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chinese PLA Tank Crew -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Army_Tank_Crew</defName>
+        <identifier>FCP_Backstory_China_Army_TankCrew</identifier>
+        <slot>Adulthood</slot>
+        <title>Sino-American War Tank Crew</title>
+        <titleShort>Tank Crew</titleShort>
+        <description>Operated and maintained tanks in the PLA armored divisions, facing American Vertibirds and power armor on the battlefield. Skilled in teamwork, mechanics, and armored warfare.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Shooting>2</Shooting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Army</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!--__ Children __-->
+
+    <!-- Chinese Young Street Sweeper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Street_Sweeper</defName>
+        <identifier>FCP_Backstory_China_Child_Street_Sweeper</identifier>
+        <slot>Childhood</slot>
+        <title>Street Sweeper</title>
+        <titleShort>Street Sweeper</titleShort>
+        <description>Helped keep the city streets clean after parades and air raids, learning the value of hard work and community pride. Developed a strong work ethic and teamwork skills.</description>
+        <skillGains>
+            <Construction>1</Construction>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Young Kitchen Helper -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Kitchen_Helper</defName>
+        <identifier>FCP_Backstory_China_Child_Kitchen_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>Kitchen Helper</title>
+        <titleShort>Kitchen Helper</titleShort>
+        <description>Assisted family members in preparing meals during rationing, learning basic cooking and the importance of sharing. Developed patience and a sense of responsibility.</description>
+        <skillGains>
+            <Cooking>1</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Red Star Propaganda Poster Artist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Propaganda_Artist</defName>
+        <identifier>FCP_Backstory_China_Child_Propaganda_Artist</identifier>
+        <slot>Childhood</slot>
+        <title>Propaganda Poster Artist</title>
+        <titleShort>Poster Artist</titleShort>
+        <description>Drew patriotic posters for school contests, inspired by Party slogans and war heroes. Developed artistic skill and a sense of national pride.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Young Radio Listener -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Radio_Listener</defName>
+        <identifier>FCP_Backstory_China_Child_Radio_Listener</identifier>
+        <slot>Childhood</slot>
+        <title>Young Radio Listener</title>
+        <titleShort>Radio Listener</titleShort>
+        <description>Spent evenings listening to state broadcasts and war news with family. Learned to follow current events and discuss them with friends.</description>
+        <skillGains>
+            <Intellectual>1</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Air Raid Drill Leader -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Air_Raid_Leader</defName>
+        <identifier>FCP_Backstory_China_Child_Air_Raid_Leader</identifier>
+        <slot>Childhood</slot>
+        <title>Air Raid Drill Leader</title>
+        <titleShort>Drill Leader</titleShort>
+        <description>Helped organize air raid drills at school, guiding classmates to shelters and keeping spirits high. Developed leadership and crisis management skills.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Young Market Runner -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Market_Runner</defName>
+        <identifier>FCP_Backstory_China_Child_Market_Runner</identifier>
+        <slot>Childhood</slot>
+        <title>Market Runner</title>
+        <titleShort>Market Runner</titleShort>
+        <description>Ran errands for family and neighbors in the busy city market, learning to navigate crowds and barter for supplies. Developed resourcefulness and people skills.</description>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Young Rooftop Farmer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Rooftop_Farmer</defName>
+        <identifier>FCP_Backstory_China_Child_Rooftop_Farmer</identifier>
+        <slot>Childhood</slot>
+        <title>Rooftop Farmer</title>
+        <titleShort>Rooftop Farmer</titleShort>
+        <description>Helped grow beans and greens on the rooftop garden, learning about plants and teamwork. Developed patience and a love for fresh food.</description>
+        <skillGains>
+            <Plants>2</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Red Star Young Pioneer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Young_Pioneer</defName>
+        <identifier>FCP_Backstory_China_Child_Young_Pioneer</identifier>
+        <slot>Childhood</slot>
+        <title>Red Star Young Pioneer</title>
+        <titleShort>Pioneer</titleShort>
+        <description>Joined the Young Pioneers, learning Party songs, marching in parades, and practicing air raid drills. Developed discipline and pride in serving the Republic.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese City Schoolchild -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_City_Schoolchild</defName>
+        <identifier>FCP_Backstory_China_Child_City_Schoolchild</identifier>
+        <slot>Childhood</slot>
+        <title>City Schoolchild</title>
+        <titleShort>Schoolchild</titleShort>
+        <description>Attended crowded city schools, memorizing Party slogans and practicing duck-and-cover drills. Quick to learn and eager to please teachers.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Rooftop Gardener -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Rooftop_Gardener</defName>
+        <identifier>FCP_Backstory_China_Child_Rooftop_Gardener</identifier>
+        <slot>Childhood</slot>
+        <title>Rooftop Gardener</title>
+        <titleShort>Gardener</titleShort>
+        <description>Helped parents tend rooftop vegetable gardens, learning patience and the basics of growing food in the city. Developed a green thumb and a love for nature.</description>
+        <skillGains>
+            <Plants>2</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Street Performer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Street_Performer</defName>
+        <identifier>FCP_Backstory_China_Child_Street_Performer</identifier>
+        <slot>Childhood</slot>
+        <title>Street Performer</title>
+        <titleShort>Performer</titleShort>
+        <description>Learned to sing and dance for coins in busy city squares, entertaining neighbors and soldiers. Developed confidence and a flair for the dramatic.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Market Helper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Market_Helper</defName>
+        <identifier>FCP_Backstory_China_Child_Market_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>Market Helper</title>
+        <titleShort>Market Helper</titleShort>
+        <description>Spent weekends helping family sell food at the local market, learning to count change and greet customers. Developed a strong work ethic and people skills.</description>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Street Mechanic's Apprentice -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Mechanic_Apprentice</defName>
+        <identifier>FCP_Backstory_China_Child_Mechanic_Apprentice</identifier>
+        <slot>Childhood</slot>
+        <title>Mechanic's Apprentice</title>
+        <titleShort>Apprentice</titleShort>
+        <description>Helped fix bicycles and scooters in the family shop, learning the basics of tools and repairs. Developed curiosity and practical skills.</description>
+        <skillGains>
+            <Construction>2</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Bookstore Reader -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Bookstore_Reader</defName>
+        <identifier>FCP_Backstory_China_Child_Bookstore_Reader</identifier>
+        <slot>Childhood</slot>
+        <title>Bookstore Reader</title>
+        <titleShort>Reader</titleShort>
+        <description>Spent afternoons in the local bookstore, reading adventure stories and Party pamphlets. Developed a love for learning and imagination.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Textile Helper -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Textile_Helper</defName>
+        <identifier>FCP_Backstory_China_Child_Textile_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>Textile Helper</title>
+        <titleShort>Textile Helper</titleShort>
+        <description>Assisted family members in sewing uniforms and blankets, learning patience and the basics of handiwork. Developed creativity and teamwork.</description>
+        <skillGains>
+            <Artistic>1</Artistic>
+            <Construction>1</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Museum Explorer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Museum_Explorer</defName>
+        <identifier>FCP_Backstory_China_Child_Museum_Explorer</identifier>
+        <slot>Childhood</slot>
+        <title>Museum Explorer</title>
+        <titleShort>Explorer</titleShort>
+        <description>Visited the city museum with family, fascinated by ancient artifacts and war exhibits. Developed curiosity and a love for history.</description>
+        <skillGains>
+            <Intellectual>1</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Chinese Apartment Helper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_China_Child_Apartment_Helper</defName>
+        <identifier>FCP_Backstory_China_Child_Apartment_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>Apartment Helper</title>
+        <titleShort>Helper</titleShort>
+        <description>Helped neighbors with chores in the communal housing block, learning cooperation and responsibility. Developed practical skills and a sense of community.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Construction>1</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_China_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
