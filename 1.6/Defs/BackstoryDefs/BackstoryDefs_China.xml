@@ -1260,24 +1260,6 @@
 
     <!--__ Children __-->
 
-    <!-- Chinese Young Street Sweeper -->
-
-    <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Street_Sweeper</defName>
-        <identifier>FCP_Backstory_China_Child_Street_Sweeper</identifier>
-        <slot>Childhood</slot>
-        <title>Street Sweeper</title>
-        <titleShort>Street Sweeper</titleShort>
-        <description>Helped keep the city streets clean after parades and air raids, learning the value of hard work and community pride. Developed a strong work ethic and teamwork skills.</description>
-        <skillGains>
-            <Construction>1</Construction>
-            <Social>1</Social>
-        </skillGains>
-        <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
-        </spawnCategories>
-    </BackstoryDef>
-
     <!-- Chinese Young Kitchen Helper -->
     
     <BackstoryDef>
