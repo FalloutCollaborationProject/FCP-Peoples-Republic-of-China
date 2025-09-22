@@ -814,7 +814,7 @@
         <possessions />
     </BackstoryDef>
 
-    <!--_ Chinese PLA _-->
+    <!--_ Chinese Peoples' Liberation Army _-->
 
     <!-- Chinese PLA Forward Observer -->
 
@@ -1540,3 +1540,5 @@
             <li>FCP_Backstory_China_Child</li>
         </spawnCategories>
     </BackstoryDef>
+
+</Defs>
