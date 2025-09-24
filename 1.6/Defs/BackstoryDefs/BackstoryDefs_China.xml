@@ -14,8 +14,8 @@
     <!-- Chinese Power Plant Technician -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_PowerPlant_Tech</defName>
-        <identifier>FCP_Backstory_China_Citizen_PowerPlant_Tech</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_PowerPlant_Tech</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_PowerPlant_Tech</identifier>
         <slot>Adulthood</slot>
         <title>Power Plant Technician</title>
         <titleShort>Technician</titleShort>
@@ -27,7 +27,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -37,8 +37,8 @@
     <!-- Chinese Theater Performer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Theater_Performer</defName>
-        <identifier>FCP_Backstory_China_Citizen_Theater_Performer</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Theater_Performer</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Theater_Performer</identifier>
         <slot>Adulthood</slot>
         <title>Theater Performer</title>
         <titleShort>Performer</titleShort>
@@ -50,7 +50,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -60,8 +60,8 @@
     <!-- Chinese Street Mechanic -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Street_Mechanic</defName>
-        <identifier>FCP_Backstory_China_Citizen_Street_Mechanic</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Street_Mechanic</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Street_Mechanic</identifier>
         <slot>Adulthood</slot>
         <title>Street Mechanic</title>
         <titleShort>Mechanic</titleShort>
@@ -73,7 +73,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -83,8 +83,8 @@
     <!-- Chinese Public Bath Attendant -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_PublicBath_Attendant</defName>
-        <identifier>FCP_Backstory_China_Citizen_PublicBath_Attendant</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_PublicBath_Attendant</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_PublicBath_Attendant</identifier>
         <slot>Adulthood</slot>
         <title>Public Bath Attendant</title>
         <titleShort>Bath Attendant</titleShort>
@@ -96,7 +96,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -106,8 +106,8 @@
     <!-- Chinese Street Musician -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Street_Musician</defName>
-        <identifier>FCP_Backstory_China_Citizen_Street_Musician</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Street_Musician</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Street_Musician</identifier>
         <slot>Adulthood</slot>
         <title>Street Musician</title>
         <titleShort>Musician</titleShort>
@@ -119,7 +119,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -129,8 +129,8 @@
     <!-- Chinese Tram Operator -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Tram_Operator</defName>
-        <identifier>FCP_Backstory_China_Citizen_Tram_Operator</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Tram_Operator</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Tram_Operator</identifier>
         <slot>Adulthood</slot>
         <title>Tram Operator</title>
         <titleShort>Tram Operator</titleShort>
@@ -142,7 +142,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -152,8 +152,8 @@
     <!-- Chinese Librarian -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Librarian</defName>
-        <identifier>FCP_Backstory_China_Citizen_Librarian</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Librarian</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Librarian</identifier>
         <slot>Adulthood</slot>
         <title>City Librarian</title>
         <titleShort>Librarian</titleShort>
@@ -165,7 +165,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -175,8 +175,8 @@
     <!-- Chinese Tailor -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Tailor</defName>
-        <identifier>FCP_Backstory_China_Citizen_Tailor</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Tailor</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Tailor</identifier>
         <slot>Adulthood</slot>
         <title>Neighborhood Tailor</title>
         <titleShort>Tailor</titleShort>
@@ -188,7 +188,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -198,8 +198,8 @@
     <!-- Chinese Bookstore Clerk -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Bookstore_Clerk</defName>
-        <identifier>FCP_Backstory_China_Citizen_Bookstore_Clerk</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Bookstore_Clerk</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Bookstore_Clerk</identifier>
         <slot>Adulthood</slot>
         <title>Bookstore Clerk</title>
         <titleShort>Bookstore Clerk</titleShort>
@@ -211,7 +211,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -221,8 +221,8 @@
     <!-- Chinese Museum Guide -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Museum_Guide</defName>
-        <identifier>FCP_Backstory_China_Citizen_Museum_Guide</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Museum_Guide</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Museum_Guide</identifier>
         <slot>Adulthood</slot>
         <title>Museum Guide</title>
         <titleShort>Museum Guide</titleShort>
@@ -234,7 +234,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -244,8 +244,8 @@
     <!-- Chinese Postal Worker -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Postal_Worker</defName>
-        <identifier>FCP_Backstory_China_Citizen_Postal_Worker</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Postal_Worker</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Postal_Worker</identifier>
         <slot>Adulthood</slot>
         <title>Postal Worker</title>
         <titleShort>Postal Worker</titleShort>
@@ -257,7 +257,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -267,8 +267,8 @@
     <!-- Chinese Street Sweeper -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Street_Sweeper</defName>
-        <identifier>FCP_Backstory_China_Citizen_Street_Sweeper</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Street_Sweeper</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Street_Sweeper</identifier>
         <slot>Adulthood</slot>
         <title>Street Sweeper</title>
         <titleShort>Street Sweeper</titleShort>
@@ -280,7 +280,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -290,8 +290,8 @@
     <!-- Chinese Textile Worker -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Textile_Worker</defName>
-        <identifier>FCP_Backstory_China_Citizen_Textile_Worker</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Textile_Worker</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Textile_Worker</identifier>
         <slot>Adulthood</slot>
         <title>Textile Worker</title>
         <titleShort>Textile Worker</titleShort>
@@ -303,7 +303,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -313,8 +313,8 @@
     <!-- Chinese News Reporter -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_News_Reporter</defName>
-        <identifier>FCP_Backstory_China_Citizen_News_Reporter</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_News_Reporter</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_News_Reporter</identifier>
         <slot>Adulthood</slot>
         <title>News Reporter</title>
         <titleShort>Reporter</titleShort>
@@ -326,7 +326,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -336,8 +336,8 @@
     <!-- Chinese Restaurant Cook -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Restaurant_Cook</defName>
-        <identifier>FCP_Backstory_China_Citizen_Restaurant_Cook</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Restaurant_Cook</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Restaurant_Cook</identifier>
         <slot>Adulthood</slot>
         <title>Restaurant Cook</title>
         <titleShort>Cook</titleShort>
@@ -349,7 +349,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -359,8 +359,8 @@
     <!-- Chinese Hospital Nurse -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Hospital_Nurse</defName>
-        <identifier>FCP_Backstory_China_Citizen_Hospital_Nurse</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Hospital_Nurse</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Hospital_Nurse</identifier>
         <slot>Adulthood</slot>
         <title>State Hospital Nurse</title>
         <titleShort>Nurse</titleShort>
@@ -372,7 +372,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -382,8 +382,8 @@
     <!-- Chinese Schoolchild -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Schoolchild</defName>
-        <identifier>FCP_Backstory_China_Citizen_Schoolchild</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Schoolchild</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Schoolchild</identifier>
         <slot>Adulthood</slot>
         <title>State Schoolchild</title>
         <titleShort>Schoolchild</titleShort>
@@ -395,7 +395,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -405,8 +405,8 @@
     <!-- Chinese Apartment Caretaker -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Apartment_Caretaker</defName>
-        <identifier>FCP_Backstory_China_Citizen_Apartment_Caretaker</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Apartment_Caretaker</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Apartment_Caretaker</identifier>
         <slot>Adulthood</slot>
         <title>Apartment Caretaker</title>
         <titleShort>Caretaker</titleShort>
@@ -418,7 +418,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -428,8 +428,8 @@
     <!-- Chinese Party Official -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Party_Official</defName>
-        <identifier>FCP_Backstory_China_Citizen_Party_Official</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Party_Official</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Party_Official</identifier>
         <slot>Adulthood</slot>
         <title>Local Party Official</title>
         <titleShort>Party Official</titleShort>
@@ -441,7 +441,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -451,8 +451,8 @@
     <!-- Chinese City Gardener -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_City_Gardener</defName>
-        <identifier>FCP_Backstory_China_Citizen_City_Gardener</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_City_Gardener</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_City_Gardener</identifier>
         <slot>Adulthood</slot>
         <title>City Gardener</title>
         <titleShort>Gardener</titleShort>
@@ -464,7 +464,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -474,8 +474,8 @@
     <!-- Chinese Agricultural Worker -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Agricultural_Worker</defName>
-        <identifier>FCP_Backstory_China_Citizen_Agricultural_Worker</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Agricultural_Worker</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Agricultural_Worker</identifier>
         <slot>Adulthood</slot>
         <title>Collective Farm Worker</title>
         <titleShort>Farm Worker</titleShort>
@@ -487,7 +487,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -497,8 +497,8 @@
     <!-- Chinese Street Vendor -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Street_Vendor</defName>
-        <identifier>FCP_Backstory_China_Citizen_Street_Vendor</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Street_Vendor</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Street_Vendor</identifier>
         <slot>Adulthood</slot>
         <title>Street Vendor</title>
         <titleShort>Vendor</titleShort>
@@ -510,7 +510,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -520,8 +520,8 @@
     <!-- Chinese Utility Worker -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Utility_Worker</defName>
-        <identifier>FCP_Backstory_China_Citizen_Utility_Worker</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Utility_Worker</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Utility_Worker</identifier>
         <slot>Adulthood</slot>
         <title>Utility Worker</title>
         <titleShort>Utility Worker</titleShort>
@@ -533,7 +533,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -543,8 +543,8 @@
     <!-- Chinese Entertainer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Entertainer</defName>
-        <identifier>FCP_Backstory_China_Citizen_Entertainer</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Entertainer</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Entertainer</identifier>
         <slot>Adulthood</slot>
         <title>State Entertainer</title>
         <titleShort>Entertainer</titleShort>
@@ -556,7 +556,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -566,8 +566,8 @@
     <!-- Chinese Black Market Trader -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Black_Market_Trader</defName>
-        <identifier>FCP_Backstory_China_Citizen_Black_Market_Trader</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Black_Market_Trader</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Black_Market_Trader</identifier>
         <slot>Adulthood</slot>
         <title>Black Market Trader</title>
         <titleShort>Trader</titleShort>
@@ -579,7 +579,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -589,8 +589,8 @@
     <!-- Chinese Factory Worker -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Factory_Worker</defName>
-        <identifier>FCP_Backstory_China_Citizen_Factory_Worker</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Factory_Worker</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Factory_Worker</identifier>
         <slot>Adulthood</slot>
         <title>PLA Munitions Factory Worker</title>
         <titleShort>Factory Worker</titleShort>
@@ -602,7 +602,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -612,8 +612,8 @@
     <!-- Chinese Propaganda Artist -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Propaganda_Artist</defName>
-        <identifier>FCP_Backstory_China_Citizen_Propaganda_Artist</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Propaganda_Artist</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Propaganda_Artist</identifier>
         <slot>Adulthood</slot>
         <title>Propaganda Artist</title>
         <titleShort>Artist</titleShort>
@@ -625,7 +625,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -635,8 +635,8 @@
     <!-- Chinese State Doctor -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_State_Doctor</defName>
-        <identifier>FCP_Backstory_China_Citizen_State_Doctor</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_State_Doctor</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_State_Doctor</identifier>
         <slot>Adulthood</slot>
         <title>State Hospital Doctor</title>
         <titleShort>Doctor</titleShort>
@@ -648,7 +648,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -658,8 +658,8 @@
     <!-- Chinese State Teacher -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_State_Teacher</defName>
-        <identifier>FCP_Backstory_China_Citizen_State_Teacher</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_State_Teacher</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_State_Teacher</identifier>
         <slot>Adulthood</slot>
         <title>State School Teacher</title>
         <titleShort>Teacher</titleShort>
@@ -671,7 +671,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -681,8 +681,8 @@
     <!-- Chinese State Engineer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_State_Engineer</defName>
-        <identifier>FCP_Backstory_China_Citizen_State_Engineer</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_State_Engineer</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_State_Engineer</identifier>
         <slot>Adulthood</slot>
         <title>State Engineer</title>
         <titleShort>Engineer</titleShort>
@@ -694,7 +694,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -704,8 +704,8 @@
     <!-- Chinese Radio Host -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Radio_Host</defName>
-        <identifier>FCP_Backstory_China_Citizen_Radio_Host</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Radio_Host</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Radio_Host</identifier>
         <slot>Adulthood</slot>
         <title>State Radio Host</title>
         <titleShort>Radio Host</titleShort>
@@ -717,7 +717,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -727,8 +727,8 @@
     <!-- Chinese Police Officer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Police</defName>
-        <identifier>FCP_Backstory_China_Citizen_Police</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Police</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Police</identifier>
         <slot>Adulthood</slot>
         <title>State Police Officer</title>
         <titleShort>Police</titleShort>
@@ -740,7 +740,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -750,8 +750,8 @@
     <!-- Chinese Homemaker -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Homemaker</defName>
-        <identifier>FCP_Backstory_China_Citizen_Homemaker</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Homemaker</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Homemaker</identifier>
         <slot>Adulthood</slot>
         <title>State Homemaker</title>
         <titleShort>Homemaker</titleShort>
@@ -763,7 +763,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -773,8 +773,8 @@
     <!-- Chinese Student -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Student</defName>
-        <identifier>FCP_Backstory_China_Citizen_Student</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Student</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Student</identifier>
         <slot>Adulthood</slot>
         <title>State University Student</title>
         <titleShort>Student</titleShort>
@@ -785,7 +785,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -795,8 +795,8 @@
     <!-- Chinese Market Vendor -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Citizen_Market_Vendor</defName>
-        <identifier>FCP_Backstory_China_Citizen_Market_Vendor</identifier>
+        <defName>FCP_Backstory_PRC_Citizen_Market_Vendor</defName>
+        <identifier>FCP_Backstory_PRC_Citizen_Market_Vendor</identifier>
         <slot>Adulthood</slot>
         <title>Market Vendor</title>
         <titleShort>Vendor</titleShort>
@@ -807,7 +807,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Citizen</li>
+            <li>FCP_Backstory_PRC_Citizen</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -819,8 +819,8 @@
     <!-- Chinese PLA Forward Observer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Forward_Observer</defName>
-        <identifier>FCP_Backstory_China_Army_Forward_Observer</identifier>
+        <defName>FCP_Backstory_PRC_Army_Forward_Observer</defName>
+        <identifier>FCP_Backstory_PRC_Army_Forward_Observer</identifier>
         <slot>Adulthood</slot>
         <title>Forward Observer</title>
         <titleShort>Observer</titleShort>
@@ -832,7 +832,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -842,8 +842,8 @@
     <!-- Chinese PLA Combat Cook -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Combat_Cook</defName>
-        <identifier>FCP_Backstory_China_Army_Combat_Cook</identifier>
+        <defName>FCP_Backstory_PRC_Army_Combat_Cook</defName>
+        <identifier>FCP_Backstory_PRC_Army_Combat_Cook</identifier>
         <slot>Adulthood</slot>
         <title>Combat Cook</title>
         <titleShort>Cook</titleShort>
@@ -855,7 +855,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -865,8 +865,8 @@
     <!-- Chinese PLA Psychological Warfare Operative -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Psych_Warfare_Operative</defName>
-        <identifier>FCP_Backstory_China_Army_Psych_Warfare_Operative</identifier>
+        <defName>FCP_Backstory_PRC_Army_Psych_Warfare_Operative</defName>
+        <identifier>FCP_Backstory_PRC_Army_Psych_Warfare_Operative</identifier>
         <slot>Adulthood</slot>
         <title>Psychological Warfare Operative</title>
         <titleShort>PsyOps</titleShort>
@@ -878,7 +878,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -888,8 +888,8 @@
     <!-- Chinese PLA Field Engineer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Field_Engineer</defName>
-        <identifier>FCP_Backstory_China_Army_Field_Engineer</identifier>
+        <defName>FCP_Backstory_PRC_Army_Field_Engineer</defName>
+        <identifier>FCP_Backstory_PRC_Army_Field_Engineer</identifier>
         <slot>Adulthood</slot>
         <title>Field Engineer</title>
         <titleShort>Field Engineer</titleShort>
@@ -901,7 +901,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -911,8 +911,8 @@
     <!-- Chinese PLA Battlefield Medic -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Battlefield_Medic</defName>
-        <identifier>FCP_Backstory_China_Army_Battlefield_Medic</identifier>
+        <defName>FCP_Backstory_PRC_Army_Battlefield_Medic</defName>
+        <identifier>FCP_Backstory_PRC_Army_Battlefield_Medic</identifier>
         <slot>Adulthood</slot>
         <title>Battlefield Medic</title>
         <titleShort>Medic</titleShort>
@@ -924,7 +924,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -934,8 +934,8 @@
     <!-- Chinese PLA Artillery Crew -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Artillery_Crew</defName>
-        <identifier>FCP_Backstory_China_Army_Artillery_Crew</identifier>
+        <defName>FCP_Backstory_PRC_Army_Artillery_Crew</defName>
+        <identifier>FCP_Backstory_PRC_Army_Artillery_Crew</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Artillery Crew</title>
         <titleShort>Artillery Crew</titleShort>
@@ -948,7 +948,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -958,8 +958,8 @@
     <!-- Chinese PLA Anti-Power Armor Specialist -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_AntiPowerArmor_Specialist</defName>
-        <identifier>FCP_Backstory_China_Army_AntiPowerArmor_Specialist</identifier>
+        <defName>FCP_Backstory_PRC_Army_AntiPowerArmor_Specialist</defName>
+        <identifier>FCP_Backstory_PRC_Army_AntiPowerArmor_Specialist</identifier>
         <slot>Adulthood</slot>
         <title>Anti-Power Armor Specialist</title>
         <titleShort>Anti-Armor Specialist</titleShort>
@@ -971,7 +971,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -981,8 +981,8 @@
     <!-- Chinese PLA Chemical Warfare Trooper -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_ChemicalWarfare_Trooper</defName>
-        <identifier>FCP_Backstory_China_Army_ChemicalWarfare_Trooper</identifier>
+        <defName>FCP_Backstory_PRC_Army_ChemicalWarfare_Trooper</defName>
+        <identifier>FCP_Backstory_PRC_Army_ChemicalWarfare_Trooper</identifier>
         <slot>Adulthood</slot>
         <title>Chemical Warfare Trooper</title>
         <titleShort>Chem Trooper</titleShort>
@@ -995,7 +995,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1005,8 +1005,8 @@
     <!-- Chinese PLA Sapper -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Sapper</defName>
-        <identifier>FCP_Backstory_China_Army_Sapper</identifier>
+        <defName>FCP_Backstory_PRC_Army_Sapper</defName>
+        <identifier>FCP_Backstory_PRC_Army_Sapper</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Sapper</title>
         <titleShort>Sapper</titleShort>
@@ -1019,7 +1019,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1029,8 +1029,8 @@
     <!-- Chinese PLA Infantry -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Infantry</defName>
-        <identifier>FCP_Backstory_China_Army_Infantry</identifier>
+        <defName>FCP_Backstory_PRC_Army_Infantry</defName>
+        <identifier>FCP_Backstory_PRC_Army_Infantry</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Infantry</title>
         <titleShort>Infantry</titleShort>
@@ -1042,7 +1042,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1052,8 +1052,8 @@
     <!-- Chinese PLA Officer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Officer</defName>
-        <identifier>FCP_Backstory_China_Army_Officer</identifier>
+        <defName>FCP_Backstory_PRC_Army_Officer</defName>
+        <identifier>FCP_Backstory_PRC_Army_Officer</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Officer</title>
         <titleShort>Officer</titleShort>
@@ -1065,7 +1065,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1075,8 +1075,8 @@
     <!-- Chinese PLA Stealth Trooper -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Stealth_Trooper</defName>
-        <identifier>FCP_Backstory_China_Army_Stealth_Trooper</identifier>
+        <defName>FCP_Backstory_PRC_Army_Stealth_Trooper</defName>
+        <identifier>FCP_Backstory_PRC_Army_Stealth_Trooper</identifier>
         <slot>Adulthood</slot>
         <title>Chinese Stealth Trooper</title>
         <titleShort>Stealth Trooper</titleShort>
@@ -1089,7 +1089,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1099,8 +1099,8 @@
     <!-- Chinese PLA Field Medic -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Field_Medic</defName>
-        <identifier>FCP_Backstory_China_Army_FieldMedic</identifier>
+        <defName>FCP_Backstory_PRC_Army_Field_Medic</defName>
+        <identifier>FCP_Backstory_PRC_Army_FieldMedic</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Field Medic</title>
         <titleShort>Field Medic</titleShort>
@@ -1112,7 +1112,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1122,8 +1122,8 @@
     <!-- Chinese PLA Engineer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Engineer</defName>
-        <identifier>FCP_Backstory_China_Army_Engineer</identifier>
+        <defName>FCP_Backstory_PRC_Army_Engineer</defName>
+        <identifier>FCP_Backstory_PRC_Army_Engineer</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Combat Engineer</title>
         <titleShort>Engineer</titleShort>
@@ -1135,7 +1135,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1145,8 +1145,8 @@
     <!-- Chinese PLA Military Police -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Military_Police</defName>
-        <identifier>FCP_Backstory_China_Army_Military_Police</identifier>
+        <defName>FCP_Backstory_PRC_Army_Military_Police</defName>
+        <identifier>FCP_Backstory_PRC_Army_Military_Police</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Military Police</title>
         <titleShort>Military Police</titleShort>
@@ -1158,7 +1158,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1168,8 +1168,8 @@
     <!-- Chinese PLA Scout -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Scout</defName>
-        <identifier>FCP_Backstory_China_Army_Scout</identifier>
+        <defName>FCP_Backstory_PRC_Army_Scout</defName>
+        <identifier>FCP_Backstory_PRC_Army_Scout</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Scout</title>
         <titleShort>Scout</titleShort>
@@ -1181,7 +1181,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1191,8 +1191,8 @@
     <!-- Chinese PLA Radio Operator -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Radio_Operator</defName>
-        <identifier>FCP_Backstory_China_Army_RadioOperator</identifier>
+        <defName>FCP_Backstory_PRC_Army_Radio_Operator</defName>
+        <identifier>FCP_Backstory_PRC_Army_RadioOperator</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Radio Operator</title>
         <titleShort>Radio Operator</titleShort>
@@ -1204,7 +1204,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1214,8 +1214,8 @@
     <!-- Chinese PLA Conscriptee -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Conscriptee</defName>
-        <identifier>FCP_Backstory_China_Army_Conscriptee</identifier>
+        <defName>FCP_Backstory_PRC_Army_Conscriptee</defName>
+        <identifier>FCP_Backstory_PRC_Army_Conscriptee</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Conscriptee</title>
         <titleShort>Conscriptee</titleShort>
@@ -1227,7 +1227,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1237,8 +1237,8 @@
     <!-- Chinese PLA Tank Crew -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Army_Tank_Crew</defName>
-        <identifier>FCP_Backstory_China_Army_TankCrew</identifier>
+        <defName>FCP_Backstory_PRC_Army_Tank_Crew</defName>
+        <identifier>FCP_Backstory_PRC_Army_TankCrew</identifier>
         <slot>Adulthood</slot>
         <title>Sino-American War Tank Crew</title>
         <titleShort>Tank Crew</titleShort>
@@ -1251,7 +1251,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_China_Army</li>
+            <li>FCP_Backstory_PRC_Army</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1263,8 +1263,8 @@
     <!-- Chinese Young Kitchen Helper -->
     
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Kitchen_Helper</defName>
-        <identifier>FCP_Backstory_China_Child_Kitchen_Helper</identifier>
+        <defName>FCP_Backstory_PRC_Child_Kitchen_Helper</defName>
+        <identifier>FCP_Backstory_PRC_Child_Kitchen_Helper</identifier>
         <slot>Childhood</slot>
         <title>Kitchen Helper</title>
         <titleShort>Kitchen Helper</titleShort>
@@ -1274,15 +1274,15 @@
             <Social>1</Social>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Red Star Propaganda Poster Artist -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Propaganda_Artist</defName>
-        <identifier>FCP_Backstory_China_Child_Propaganda_Artist</identifier>
+        <defName>FCP_Backstory_PRC_Child_Propaganda_Artist</defName>
+        <identifier>FCP_Backstory_PRC_Child_Propaganda_Artist</identifier>
         <slot>Childhood</slot>
         <title>Propaganda Poster Artist</title>
         <titleShort>Poster Artist</titleShort>
@@ -1291,15 +1291,15 @@
             <Artistic>2</Artistic>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Young Radio Listener -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Radio_Listener</defName>
-        <identifier>FCP_Backstory_China_Child_Radio_Listener</identifier>
+        <defName>FCP_Backstory_PRC_Child_Radio_Listener</defName>
+        <identifier>FCP_Backstory_PRC_Child_Radio_Listener</identifier>
         <slot>Childhood</slot>
         <title>Young Radio Listener</title>
         <titleShort>Radio Listener</titleShort>
@@ -1309,15 +1309,15 @@
             <Social>1</Social>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Air Raid Drill Leader -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Air_Raid_Leader</defName>
-        <identifier>FCP_Backstory_China_Child_Air_Raid_Leader</identifier>
+        <defName>FCP_Backstory_PRC_Child_Air_Raid_Leader</defName>
+        <identifier>FCP_Backstory_PRC_Child_Air_Raid_Leader</identifier>
         <slot>Childhood</slot>
         <title>Air Raid Drill Leader</title>
         <titleShort>Drill Leader</titleShort>
@@ -1327,15 +1327,15 @@
             <Intellectual>1</Intellectual>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Young Market Runner -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Market_Runner</defName>
-        <identifier>FCP_Backstory_China_Child_Market_Runner</identifier>
+        <defName>FCP_Backstory_PRC_Child_Market_Runner</defName>
+        <identifier>FCP_Backstory_PRC_Child_Market_Runner</identifier>
         <slot>Childhood</slot>
         <title>Market Runner</title>
         <titleShort>Market Runner</titleShort>
@@ -1344,15 +1344,15 @@
             <Social>2</Social>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Young Rooftop Farmer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Rooftop_Farmer</defName>
-        <identifier>FCP_Backstory_China_Child_Rooftop_Farmer</identifier>
+        <defName>FCP_Backstory_PRC_Child_Rooftop_Farmer</defName>
+        <identifier>FCP_Backstory_PRC_Child_Rooftop_Farmer</identifier>
         <slot>Childhood</slot>
         <title>Rooftop Farmer</title>
         <titleShort>Rooftop Farmer</titleShort>
@@ -1361,15 +1361,15 @@
             <Plants>2</Plants>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Red Star Young Pioneer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Young_Pioneer</defName>
-        <identifier>FCP_Backstory_China_Child_Young_Pioneer</identifier>
+        <defName>FCP_Backstory_PRC_Child_Young_Pioneer</defName>
+        <identifier>FCP_Backstory_PRC_Child_Young_Pioneer</identifier>
         <slot>Childhood</slot>
         <title>Red Star Young Pioneer</title>
         <titleShort>Pioneer</titleShort>
@@ -1379,15 +1379,15 @@
             <Intellectual>1</Intellectual>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese City Schoolchild -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_City_Schoolchild</defName>
-        <identifier>FCP_Backstory_China_Child_City_Schoolchild</identifier>
+        <defName>FCP_Backstory_PRC_Child_City_Schoolchild</defName>
+        <identifier>FCP_Backstory_PRC_Child_City_Schoolchild</identifier>
         <slot>Childhood</slot>
         <title>City Schoolchild</title>
         <titleShort>Schoolchild</titleShort>
@@ -1397,15 +1397,15 @@
             <Social>1</Social>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Rooftop Gardener -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Rooftop_Gardener</defName>
-        <identifier>FCP_Backstory_China_Child_Rooftop_Gardener</identifier>
+        <defName>FCP_Backstory_PRC_Child_Rooftop_Gardener</defName>
+        <identifier>FCP_Backstory_PRC_Child_Rooftop_Gardener</identifier>
         <slot>Childhood</slot>
         <title>Rooftop Gardener</title>
         <titleShort>Gardener</titleShort>
@@ -1414,15 +1414,15 @@
             <Plants>2</Plants>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Street Performer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Street_Performer</defName>
-        <identifier>FCP_Backstory_China_Child_Street_Performer</identifier>
+        <defName>FCP_Backstory_PRC_Child_Street_Performer</defName>
+        <identifier>FCP_Backstory_PRC_Child_Street_Performer</identifier>
         <slot>Childhood</slot>
         <title>Street Performer</title>
         <titleShort>Performer</titleShort>
@@ -1432,15 +1432,15 @@
             <Social>1</Social>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Market Helper -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Market_Helper</defName>
-        <identifier>FCP_Backstory_China_Child_Market_Helper</identifier>
+        <defName>FCP_Backstory_PRC_Child_Market_Helper</defName>
+        <identifier>FCP_Backstory_PRC_Child_Market_Helper</identifier>
         <slot>Childhood</slot>
         <title>Market Helper</title>
         <titleShort>Market Helper</titleShort>
@@ -1449,15 +1449,15 @@
             <Social>2</Social>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Street Mechanic's Apprentice -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Mechanic_Apprentice</defName>
-        <identifier>FCP_Backstory_China_Child_Mechanic_Apprentice</identifier>
+        <defName>FCP_Backstory_PRC_Child_Mechanic_Apprentice</defName>
+        <identifier>FCP_Backstory_PRC_Child_Mechanic_Apprentice</identifier>
         <slot>Childhood</slot>
         <title>Mechanic's Apprentice</title>
         <titleShort>Apprentice</titleShort>
@@ -1466,15 +1466,15 @@
             <Construction>2</Construction>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Bookstore Reader -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Bookstore_Reader</defName>
-        <identifier>FCP_Backstory_China_Child_Bookstore_Reader</identifier>
+        <defName>FCP_Backstory_PRC_Child_Bookstore_Reader</defName>
+        <identifier>FCP_Backstory_PRC_Child_Bookstore_Reader</identifier>
         <slot>Childhood</slot>
         <title>Bookstore Reader</title>
         <titleShort>Reader</titleShort>
@@ -1483,15 +1483,15 @@
             <Intellectual>2</Intellectual>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Textile Helper -->
     
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Textile_Helper</defName>
-        <identifier>FCP_Backstory_China_Child_Textile_Helper</identifier>
+        <defName>FCP_Backstory_PRC_Child_Textile_Helper</defName>
+        <identifier>FCP_Backstory_PRC_Child_Textile_Helper</identifier>
         <slot>Childhood</slot>
         <title>Textile Helper</title>
         <titleShort>Textile Helper</titleShort>
@@ -1501,15 +1501,15 @@
             <Construction>1</Construction>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Museum Explorer -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Museum_Explorer</defName>
-        <identifier>FCP_Backstory_China_Child_Museum_Explorer</identifier>
+        <defName>FCP_Backstory_PRC_Child_Museum_Explorer</defName>
+        <identifier>FCP_Backstory_PRC_Child_Museum_Explorer</identifier>
         <slot>Childhood</slot>
         <title>Museum Explorer</title>
         <titleShort>Explorer</titleShort>
@@ -1519,15 +1519,15 @@
             <Social>1</Social>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
     <!-- Chinese Apartment Helper -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_China_Child_Apartment_Helper</defName>
-        <identifier>FCP_Backstory_China_Child_Apartment_Helper</identifier>
+        <defName>FCP_Backstory_PRC_Child_Apartment_Helper</defName>
+        <identifier>FCP_Backstory_PRC_Child_Apartment_Helper</identifier>
         <slot>Childhood</slot>
         <title>Apartment Helper</title>
         <titleShort>Helper</titleShort>
@@ -1537,7 +1537,7 @@
             <Construction>1</Construction>
         </skillGains>
         <spawnCategories>
-            <li>FCP_Backstory_China_Child</li>
+            <li>FCP_Backstory_PRC_Child</li>
         </spawnCategories>
     </BackstoryDef>
 
