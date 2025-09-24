@@ -86,7 +86,7 @@
         
         <caravanTraderKinds>
             <li>FCP_Caravan_PRC_Logistics_Officer</li>
-            <li>FCP_Caravan_PRC_Prisoner_Exchange</li>
+            <li>FCP_Caravan_PRC_Captive_Exchange</li>
             <li>FCP_Caravan_PRC_Black_Market_Dealer</li>
         </caravanTraderKinds>
 
@@ -94,7 +94,7 @@
         
         <visitorTraderKinds>
             <li>FCP_Caravan_PRC_Logistics_Officer</li>
-            <li>FCP_Caravan_PRC_Prisoner_Exchange</li>
+            <li>FCP_Caravan_PRC_Captive_Exchange</li>
             <li>FCP_Caravan_PRC_Black_Market_Dealer</li>
         </visitorTraderKinds>
 
@@ -102,7 +102,7 @@
         
         <baseTraderKinds>
             <li>FCP_Caravan_PRC_Logistics_Officer</li>
-            <li>FCP_Caravan_PRC_Prisoner_Exchange</li>
+            <li>FCP_Caravan_PRC_Captive_Exchange</li>
             <li>FCP_Caravan_PRC_Black_Market_Dealer</li>
         </baseTraderKinds>
 
@@ -210,12 +210,12 @@
                 </guards>
             </li>
 
-            <!-- PRC Prisoner Caravan -->
+            <!-- PRC Captive Caravan -->
 
             <li Class="FCP.Core.GroupMakerWithTraderKind">
                 <kindDef>Trader</kindDef>
                 <traderKinds>
-                    <li>FCP_Caravan_PRC_Prisoner_Exchange</li>
+                    <li>FCP_Caravan_PRC_Captive_Exchange</li>
                 </traderKinds>
                 <traders>
 
