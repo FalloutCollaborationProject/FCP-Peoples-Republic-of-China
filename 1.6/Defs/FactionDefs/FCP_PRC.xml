@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Factions __________-->
+
+    <!-- People's Republic of China -->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_PRC</defName>
+        <label>People's Republic of China</label>
+        <description>Founded on ideals of collectivism, harmony, and technological advancement, the People's Republic of China is a nation of bustling cities, rich cultural heritage, and a strong sense of community. Beneath the surface, however, growing censorship, state control, and military expansion shape daily life. Citizens enjoy rapid modernization, vibrant traditions, and national pride, even as the specter of international conflict looms ever closer.</description>
+        <royalTitleTags>
+            <li>FCP_Title_PRC</li>
+        </royalTitleTags>
+        <royalFavorLabel>Social Credits</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+        <royalTitleInheritanceRelations>
+        </royalTitleInheritanceRelations>
+        <colorSpectrum>
+            <li>(1, 1, 1)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>Chinese</pawnSingular>
+        <pawnsPlural>Chinese</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Supreme Leader</leaderTitle>
+        <factionIconPath>World_Icon/PRC_Icon/FCP_PRC_World_Icon</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <fixedName>People's Republic of China</fixedName>
+        <settlementNameMaker>FCP_Namer_Settlement_PRC</settlementNameMaker>
+        <allowedCultures>
+            <li>FCP_Culture_PRC_Chinese</li>
+        </allowedCultures>
+
+        <!--__________ Ideology __________-->
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>Year of the Dragon</ideoName>
+        <ideoDescription>The Year of the Dragon ideology values national unity, collective effort, and technological progress. It encourages loyalty to the state, respect for tradition, and pride in cultural heritage. Citizens are expected to work together for the good of the nation, maintain social harmony, and embrace innovation, believing that unity and determination will bring prosperity and strength.</ideoDescription>
+        <styles>
+            <li>FCP_Style_Chinese</li>
+            <!--<li MayRequire="Ludeon.RimWorld.Ideology">Morbid</li>-->
+        </styles>
+        <forcedMemes>
+            <!-- Structure -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <!-- Memes -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_YearOfTheDragon</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <!--__________ Biotech __________-->
+
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
+
+        <!--__________ Backstories __________-->
+        
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_PRC_Citizen</li>
+                    <li>FCP_Backstory_PRC_Army</li>
+                    <li>FCP_Backstory_PRC_Child</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+
+        <!--__________ Kinds __________-->
+
+        <!-- Caravan Trader Kinds -->
+        
+        <caravanTraderKinds>
+            <li>FCP_Caravan_PRC_Logistics_Officer</li>
+            <li>FCP_Caravan_PRC_Prisoner_Exchange</li>
+            <li>FCP_Caravan_PRC_Black_Market_Dealer</li>
+        </caravanTraderKinds>
+
+        <!-- Vistor Trader Kinds -->
+        
+        <visitorTraderKinds>
+            <li>FCP_Caravan_PRC_Logistics_Officer</li>
+            <li>FCP_Caravan_PRC_Prisoner_Exchange</li>
+            <li>FCP_Caravan_PRC_Black_Market_Dealer</li>
+        </visitorTraderKinds>
+
+        <!-- Base Trader Kinds -->
+        
+        <baseTraderKinds>
+            <li>FCP_Caravan_PRC_Logistics_Officer</li>
+            <li>FCP_Caravan_PRC_Prisoner_Exchange</li>
+            <li>FCP_Caravan_PRC_Black_Market_Dealer</li>
+        </baseTraderKinds>
+
+        <!-- Trader Kind Arrival Options -->
+        
+        <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+        <raidLootMaker>FCP_PRCRaidLootMaker</raidLootMaker>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <!--__________ Group Makers __________-->
+        
+        <pawnGroupMakers>
+
+            <!-- PLA Army Squad -->
+
+            <li>
+                <!-- Normal fights, standard troopers -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+
+                </options>
+            </li>
+
+            <!-- PLA Marine Squad -->
+
+            <li>
+                <!-- Normal fights, standard marines -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+
+                </options>
+            </li>
+
+            <!-- PLA Alaskan Squad -->
+
+            <li>
+                <!-- Distance fights, Alaskan troopers -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+
+                </options>
+            </li>
+
+            <!-- PLA stealth Squad -->
+
+            <li>
+                <!-- Normal fights, stealth suit saboteurs -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+
+                    <FCP_Pawnkind_PRC_General>1</FCP_Pawnkind_PRC_General>
+                </options>
+            </li>
+
+            <!-- PRC Peaceful -->
+
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
+                <kindDef>Peaceful</kindDef>
+                <options>
+
+                </options>
+                <characterDefs>
+                    <li>FCP_Character_PRC_General_Jingwei</li>
+                </characterDefs>
+                <characterChance>0.35</characterChance>
+            </li>
+
+            <!--__________ PRC Traders __________-->
+
+            <!-- PLA Logistics_Officer -->
+
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
+                <kindDef>Trader</kindDef>
+                <traderKinds>
+                    <li>FCP_Caravan_PRC_Logistics_Officer</li>
+                </traderKinds>
+                <traders>
+                    <FCP_Pawnkind_PRC_Logistics_Officer>1</FCP_Pawnkind_PRC_Logistics_Officer>
+                </traders>
+                <carriers>
+
+                </carriers>
+                <guards>
+
+                </guards>
+            </li>
+
+            <!-- PRC Prisoner Caravan -->
+
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
+                <kindDef>Trader</kindDef>
+                <traderKinds>
+                    <li>FCP_Caravan_PRC_Prisoner_Exchange</li>
+                </traderKinds>
+                <traders>
+
+                </traders>
+                <carriers>
+
+                </carriers>
+                <guards>
+
+                </guards>
+
+            </li>
+
+            <!-- PRC Settlement -->
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <modExtensions Inherit="False">
+            <!-- Chinese Yuan -->
+            <li Class="FCP.Currencies.CurrencyReplacement">
+                <currency>FCP_Currency_PRC_Yuan</currency>
+            </li>
+            <!-- Make them hostile to the United States -->
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li MayRequire="Rick.FCP.USA">FCP_Faction_Peoples_Republic_of_China</li>
+                </hostileFactionDefs>
+            </li>
+            <!-- Make them unable to use drop pods -->
+            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+            <!-- Ideology stuff -->
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
+                <ideoIconDef>FCP_Icon_PRC</ideoIconDef>
+                <ideoColorDef>LightGrey</ideoColorDef>
+                <memberName>Chinese</memberName>
+                <adjective>Chinese</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                    <li>
+                        <preceptDef>IdeoRole_Moralist</preceptDef>
+                        <newName>Abassador</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                    <li>
+                        <preceptDef>FCP_IdeoRole_General</preceptDef>
+                        <newName>General</newName>
+                        <disableApparelRequirements>false</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                </roleOverrides>
+            </li>
+            <!-- Enlistment stuff -->
+            <li Class="FCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>FCP_Enlistment_PRC</li>
+                </enlistOptionsDefs>
+                <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+            </li>
+            <!-- Shuttles -->
+            <li Class="FCP_Shuttles.FactionModExtension">
+                <transportShipDef>FCP_Shuttle_PRC_Helicopter</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
+            <!-- Territory stuff -->
+            <!-- <li class="FCP.Core.ModExtension_FactionTerritory">
+                <territoryColor>(222, 49, 41)</territoryColor>
+                <territoryBorderColor>(116, 22, 42)</territoryBorderColor>
+                <factionLabelColor>(0.9, 0.9, 0.8, 1.0)</factionLabelColor>
+                <initialTerritoryRadius>10</initialTerritoryRadius>
+                <renderTerritoryOverWater>false</renderTerritoryOverWater>
+            </li> -->
+        </modExtensions>
+    </FactionDef>
+
+    <ThingSetMakerDef>
+        <defName>FCP_PRCRaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Currency_PRC_Yuan</li>
+                        <li>MedicineIndustrial</li>
+                        <li>ComponentIndustrial</li>
+                        <li>MealSurvivalPack</li>
+                        <li>Neutroamine</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+</Defs>
