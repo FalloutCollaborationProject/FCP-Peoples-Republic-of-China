@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IdeoIconDef>
+        <defName>FCP_Icon_PRC</defName>
+        <iconPath>World_Icon/PRC_Icon/FCP_PRC_World_Icon</iconPath>
+        <cultures>
+            <li>FCP_Culture_PRC_Chinese</li>
+        </cultures>
+    </IdeoIconDef>
+
+</Defs>
