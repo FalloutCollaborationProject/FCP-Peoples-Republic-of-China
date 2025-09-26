@@ -277,8 +277,8 @@
                         <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
                     </li>
                     <li>
-                        <preceptDef>FCP_IdeoRole_General</preceptDef>
-                        <newName>General</newName>
+                        <preceptDef>FCP_IdeoRole_Party_Leader</preceptDef>
+                        <newName>Party Leader</newName>
                         <disableApparelRequirements>false</disableApparelRequirements>
                         <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
                     </li>

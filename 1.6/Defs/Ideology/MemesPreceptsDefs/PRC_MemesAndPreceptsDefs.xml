@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--__________ Memes __________-->
+
+    <!-- The American Dream -->
+
+    <MemeDef>
+        <defName>FCP_Meme_YearOfTheDragon</defName>
+        <label>Year of the Dragon</label>
+        <description>The Year of the Dragon ideology values national unity, collective effort, and technological progress. It encourages loyalty to the state, respect for tradition, and pride in cultural heritage. Citizens are expected to work together for the good of the nation, maintain social harmony, and embrace innovation, believing that unity and determination will bring prosperity and strength.</description>
+        <iconPath>World_Icon/PRC_Icon/FCP_PRC_World_Icon</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li><li>Cannibalism_Abhorrent</li></li>
+            <li><li>NutrientPasteEating_Disgusting</li></li>
+            <li><li>Corpses_Ugly</li></li>
+            <li><li>InsectMeatEating_Despised_Classic</li></li>
+            <li><li>Lovin_Free</li></li>
+            <li><li>MarriageName_UsuallyMans</li></li>
+            <li><li>SpouseCount_Male_MaxOne</li></li>
+            <li><li>SpouseCount_Female_MaxOne</li></li>
+            <li><li>Charity_Worthwhile</li></li>
+            <li><li>DrugUse_MedicalOrSocial</li></li>
+            <li><li>FungusEating_Despised</li></li>
+            <li><li>IdeoDiversity_Standard</li></li>
+            <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
+            <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
+            <li><li>OrganUse_HorribleSellOK</li></li>
+            <li><li>Execution_HorribleIfInnocent</li></li>
+            <li><li>Research_Normal</li></li>
+            <li><li>Skullspike_Disapproved</li></li>
+            <li><li>Slavery_Disapproved</li></li>
+            <li><li>Blinding_Horrible</li></li>
+            <li><li>Scarification_Horrible</li></li>
+        </requireOne>
+        <requiredRituals>
+            <li>
+                <precept>LeaderSpeech</precept>
+                <pattern>LeaderSpeech</pattern>
+                <building>FCP_PRC_Building_Yangtze_Memorial</building>
+            </li>
+        </requiredRituals>
+    </MemeDef>
+
+    <!--__________ Precepts __________-->
+
+    <!-- PRC Party Leader -->
+
+    <PreceptDef ParentName="PreceptRoleMultiBase">
+        <defName>FCP_IdeoRole_Party_Leader</defName>
+        <label>PRC Party Leader</label>
+        <description>The Communist Party Leader is the highest authority in the People's Republic of China, representing the core values of the party and the nation. This role is responsible for guiding the people, maintaining unity, and advancing the country's collective goals and progress.</description>
+        <iconPath>World_Icon/PRC_Icon/FCP_PRC_World_Icon</iconPath>
+        <roleRequirements>
+            <li Class="RoleRequirement_MinSkillAny">
+                <skills>
+                    <Social>10</Social>
+                    <Construction>6</Construction>
+                </skills>
+            </li>
+        </roleRequirements>
+        <roleRequiredWorkTags>
+            <li>Social</li>
+            <li>Construction</li>
+        </roleRequiredWorkTags>
+        <roleTags>
+            <li>Leader</li>
+            <li>Builder</li>
+            <li>Citizen</li>
+        </roleTags>
+        <requiredMemes>
+            <li>FCP_Meme_YearOfTheDragon</li>
+        </requiredMemes>
+        <roleEffects>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>GlobalWorkSpeed</statDef>
+                <modifier>0.1</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>SocialImpact</statDef>
+                <modifier>0.2</modifier>
+            </li>
+        </roleEffects>
+        <displayOrderInImpact>1</displayOrderInImpact>
+        <roleDisabledWorkTags>
+            <li>Slavery</li>
+            <li>Scarification</li>
+            <li>Execution</li>
+        </roleDisabledWorkTags>
+        <roleApparelRequirements>
+            <li>
+                <requirement>
+                    <bodyPartGroupsMatchAny>
+                        <li>Torso</li>
+                    </bodyPartGroupsMatchAny>
+                    <requiredDefs>
+                        <li>FCP_Apparel_PRC_Suit</li>
+                    </requiredDefs>
+                </requirement>
+            </li>
+        </roleApparelRequirements>
+    </PreceptDef>
+
+</Defs>
