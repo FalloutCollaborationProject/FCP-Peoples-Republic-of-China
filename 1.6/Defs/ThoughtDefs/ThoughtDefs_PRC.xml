@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ PRC Thoughts __________-->
+
+    <!--_____ Enlistment Thoughts _____-->
+
+    <!-- Turned in a spy -->
+
+    <ThoughtDef>
+        <defName>FCP_PRC_Turned_In_A_Spy</defName>
+        <durationDays>3</durationDays>
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>turned in a spy</label>
+                <description>We exposed an enemy agent and they have been taken into custody by state security forces. The People's Republic is safer because of our vigilance.</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

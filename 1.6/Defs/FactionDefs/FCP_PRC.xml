@@ -184,9 +184,10 @@
                 <options>
 
                 </options>
-                <characterDefs>
+                <!-- TODO: Create General Jingwei character -->
+                <!--<characterDefs>
                     <li>FCP_Character_PRC_General_Jingwei</li>
-                </characterDefs>
+                </characterDefs>-->
                 <characterChance>0.35</characterChance>
             </li>
 
@@ -245,13 +246,13 @@
                 <currency>FCP_Currency_PRC_Yuan</currency>
             </li>
             <!-- Make them hostile to the United States -->
-            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+            <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>
-                    <li MayRequire="Rick.FCP.USA">FCP_Faction_Peoples_Republic_of_China</li>
+                    <li MayRequire="Rick.FCP.USA">FCP_Faction_USA</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
-            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
                 <arrivalModes>
                     <li>EdgeDrop</li>
                     <li>EdgeDropGroups</li>
@@ -260,7 +261,7 @@
                 </arrivalModes>
             </li>
             <!-- Ideology stuff -->
-            <li Class="FCP.Core.ModExtension_FixedIdeo">
+            <li Class="FCP.Factions.FactionExtension_FixedIdeo">
                 <ideoIconDef>FCP_Icon_PRC</ideoIconDef>
                 <ideoColorDef>LightGrey</ideoColorDef>
                 <memberName>Chinese</memberName>
@@ -292,11 +293,12 @@
                 <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
             </li>
             <!-- Shuttles -->
-            <li Class="FCP.Core.Shuttles.FactionModExtension">
+            <!-- TODO: Create PRC helicopter shuttle -->
+            <!--<li Class="FCP.Core.Shuttles.FactionModExtension">
                 <transportShipDef>FCP_Shuttle_PRC_Helicopter</transportShipDef>
                 <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
                 <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
-            </li>
+            </li>-->
             <!-- Territory stuff -->
             <!-- <li class="FCP.Core.ModExtension_FactionTerritory">
                 <territoryColor>(222, 49, 41)</territoryColor>

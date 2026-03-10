@@ -37,13 +37,6 @@
             <li><li>Blinding_Horrible</li></li>
             <li><li>Scarification_Horrible</li></li>
         </requireOne>
-        <requiredRituals>
-            <li>
-                <precept>LeaderSpeech</precept>
-                <pattern>LeaderSpeech</pattern>
-                <building>FCP_PRC_Building_Yangtze_Memorial</building>
-            </li>
-        </requiredRituals>
     </MemeDef>
 
     <!--__________ Precepts __________-->
@@ -65,7 +58,7 @@
         </roleRequirements>
         <roleRequiredWorkTags>
             <li>Social</li>
-            <li>Construction</li>
+            <li>Constructing</li>
         </roleRequiredWorkTags>
         <roleTags>
             <li>Leader</li>
@@ -77,7 +70,7 @@
         </requiredMemes>
         <roleEffects>
             <li Class="RoleEffect_PawnStatOffset">
-                <statDef>GlobalWorkSpeed</statDef>
+                <statDef>WorkSpeedGlobal</statDef>
                 <modifier>0.1</modifier>
             </li>
             <li Class="RoleEffect_PawnStatOffset">
@@ -86,11 +79,6 @@
             </li>
         </roleEffects>
         <displayOrderInImpact>1</displayOrderInImpact>
-        <roleDisabledWorkTags>
-            <li>Slavery</li>
-            <li>Scarification</li>
-            <li>Execution</li>
-        </roleDisabledWorkTags>
         <roleApparelRequirements>
             <li>
                 <requirement>
@@ -98,7 +86,7 @@
                         <li>Torso</li>
                     </bodyPartGroupsMatchAny>
                     <requiredDefs>
-                        <li>FCP_Apparel_PRC_Suit</li>
+                        <li>FCP_Apparel_PRC_Jumpsuit_General</li>
                     </requiredDefs>
                 </requirement>
             </li>

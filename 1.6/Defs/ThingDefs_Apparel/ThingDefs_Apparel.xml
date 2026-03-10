@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--__________ People's Republic of China __________-->
+
+	<!--_____ PRC Uniforms _____-->
+
+	<!--___ Standard Clothing ___-->
+
+	<!-- Chinese Army Jumpsuit -->
+
+	<ThingDef ParentName="FCP_Apparel_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Jumpsuit</defName>
+		<label>Chinese army jumpsuit</label>
+		<description>A practical crimson and gold jumpsuit worn by soldiers and low-ranking military personnel of the People's Liberation Army. The bright red fabric bears the iconic yellow star, symbolizing loyalty to the state. While offering minimal protection, it's designed for comfort during long duty shifts and provides basic insulation against the elements.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Standard_Uniforms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit/FCP_PRC_Jumpsuit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>100</Cloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>110</MaxHitPoints>
+			<WorkToMake>5500</WorkToMake>
+			<Mass>1.8</Mass>
+			<Insulation_Cold>2.5</Insulation_Cold>
+			<Insulation_Heat>2.0</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+			<MoveSpeed>0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit/FCP_PRC_Jumpsuit</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Soldier</li>
+				<li>FCP_PRC_Military</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Chinese Army Jumpsuit (General) -->
+
+	<ThingDef ParentName="FCP_Apparel_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Jumpsuit_General</defName>
+		<label>Chinese army general's jumpsuit</label>
+		<description>An officer's variant of the standard Chinese army jumpsuit, featuring additional decorative elements, shoulder boards, and reinforced fabric. Worn by military officers and high-ranking officials of the People's Liberation Army, this uniform commands respect and authority while maintaining the practical design of the standard issue. The added ornamentation and medals boost the wearer's confidence and negotiating presence.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Standard_Uniforms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit_General/FCP_PRC_Jumpsuit_General</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>130</Cloth>
+			<Steel>10</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<WorkToMake>9000</WorkToMake>
+			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.03</ArmorRating_Heat>
+			<Mass>2.2</Mass>
+			<Insulation_Cold>3.5</Insulation_Cold>
+			<Insulation_Heat>2.5</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.12</NegotiationAbility>
+			<SocialImpact>0.15</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit_General/FCP_PRC_Jumpsuit_General</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Officer</li>
+				<li>FCP_PRC_General</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Chinese Army Jumpsuit (Winter) -->
+
+	<ThingDef ParentName="FCP_Apparel_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Jumpsuit_Winter</defName>
+		<label>Chinese army winter jumpsuit</label>
+		<description>A heavily insulated variant of the standard Chinese army jumpsuit, designed for operations in harsh winter conditions. This padded crimson uniform features a quilted construction with synthetic insulation, fur-lined collar, and reinforced seams. Originally developed for Chinese troops stationed in the frozen northern territories, it provides excellent protection against extreme cold while maintaining the distinctive red and gold color scheme of the People's Republic.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Standard_Uniforms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit_Winter/FCP_PRC_Jumpsuit_Winter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>150</Cloth>
+			<WoolMegasloth>25</WoolMegasloth>
+		</costList>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<WorkToMake>12000</WorkToMake>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<Mass>3.5</Mass>
+			<Insulation_Cold>24</Insulation_Cold>
+			<Insulation_Heat>-6</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit_Winter/FCP_PRC_Jumpsuit_Winter</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Soldier</li>
+				<li>FCP_PRC_Winter</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+			<li Class="FCP.Core.CompProperties_TemperatureApparelPreference">
+				<forceBelowTempC>4</forceBelowTempC>
+				<avoidAboveTempC>5</avoidAboveTempC>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!--___ Advanced Equipment ___-->
+
+	<!-- Chinese Stealth Suit -->
+
+	<ThingDef ParentName="FCP_Apparel_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Stealth_Suit</defName>
+		<label>Chinese stealth suit</label>
+		<description>A cutting-edge piece of Chinese military technology, this form-fitting stealth suit incorporates advanced light-bending technology and sound-dampening materials. Developed by the People's Liberation Army for covert operations, the suit features a flexible polymer construction with integrated circuitry that provides active camouflage capabilities. Its lightweight design and mobility enhancements make it ideal for infiltration, reconnaissance, and assassination missions. The suit's signature crimson and black color scheme can shift to blend with surroundings when activated.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Advanced_Equipment</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Advanced/Chinese_Stealth_Suit/FCP_PRC_Stealth_Suit</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>80</Cloth>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<MaxHitPoints>180</MaxHitPoints>
+			<WorkToMake>45000</WorkToMake>
+			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Mass>2.0</Mass>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.40</MoveSpeed>
+			<AimingDelayFactor>-0.15</AimingDelayFactor>
+			<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			<PainShockThreshold>0.10</PainShockThreshold>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Advanced/Chinese_Stealth_Suit/FCP_PRC_Stealth_Suit</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Stealth</li>
+				<li>FCP_PRC_Special_Forces</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Chinese Submariner Uniform -->
+
+	<ThingDef ParentName="FCP_Apparel_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Submariner</defName>
+		<label>Chinese submariner uniform</label>
+		<description>A specialized uniform worn by submariners of the People's Liberation Army Navy. This practical ensemble features water-resistant fabrics, reinforced stitching, and multiple sealed pockets designed to protect essential equipment in damp, confined submarine environments. The dark navy and crimson design includes reflective strips for emergency visibility and a high collar for protection against cold ocean winds. While not a full diving suit, it provides basic environmental protection and is valued by sailors, dock workers, and naval personnel.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Advanced_Equipment</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Advanced/Chinese_Submariner/FCP_PRC_Submariner</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.90</drawSize>
+		</graphicData>
+		<costList>
+			<Cloth>120</Cloth>
+			<Plasteel>20</Plasteel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>18000</WorkToMake>
+			<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<Mass>2.5</Mass>
+			<Insulation_Cold>12</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryingCapacity>10</CarryingCapacity>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.15</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Advanced/Chinese_Submariner/FCP_PRC_Submariner</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Navy</li>
+				<li>FCP_PRC_Naval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

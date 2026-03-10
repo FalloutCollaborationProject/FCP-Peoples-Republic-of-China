@@ -11,12 +11,12 @@
         <defName>FCP_Culture_PRC_Chinese</defName>
         <label>Chinese</label>
         <description>Culture of those in the People's Republic of China.</description>
-        <pawnNameMaker>FCP_Chinese_Namer_Male</pawnNameMaker>
-        <pawnNameMakerFemale>FCP_Chinese_Namer_Female</pawnNameMakerFemale>
+        <pawnNameMaker>FCP_PRC_Namer_Male</pawnNameMaker>
+        <pawnNameMakerFemale>FCP_PRC_Namer_Female</pawnNameMakerFemale>
         <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
         <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
         <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
-        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_NCR</leaderTitleMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_PRC</leaderTitleMaker>
         <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
         <allowedPlaceTags>
             <li>OriginSpacer</li>
@@ -67,7 +67,6 @@
         <defName>FCP_Style_Chinese</defName>
         <label>Chinese</label>
         <iconPath>World_Icon/PRC_Icon/FCP_PRC_World_Icon</iconPath>
-        <soundOngoingRitual>FCP_Sound_RitualSustainer_ChineseNewYear</soundOngoingRitual>
         <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
         <thingDefStyles>
         </thingDefStyles>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Thing Categories __________-->
+
+	<!-- Chinese Yuan Currency Category -->
+
+	<ThingCategoryDef>
+		<defName>FCP_Currencies_PRC</defName>
+		<label>currencies PRC</label>
+		<parent>Manufactured</parent>
+		<iconPath>Things/Items/Currencies/FCP_Chinese_Yuan_Currency/FCP_Chinese_Yuan_Currency_c</iconPath>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+	</ThingCategoryDef>
+
+</Defs>

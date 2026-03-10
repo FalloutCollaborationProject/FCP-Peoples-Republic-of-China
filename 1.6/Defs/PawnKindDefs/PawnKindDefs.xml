@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ PRC Pawnkinds __________-->
+
+    <!--_____ Base _____-->
+
+    <PawnKindDef Name="FCP_PRCkindBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionType>FCP_Faction_PRC</defaultFactionType>
+        <chemicalAddictionChance>0.10</chemicalAddictionChance>
+        <combatEnhancingDrugsChance>0.05</combatEnhancingDrugsChance>
+        <backstoryFiltersOverride>
+            <li>
+                <categories>
+                    <li>Offworld</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+        <invNutrition>2.55</invNutrition>
+        <combatPower>50</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>0.7~2.0</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <weaponMoney>200~650</weaponMoney>
+        <techHediffsChance>0.03</techHediffsChance>
+        <techHediffsMoney>50~800</techHediffsMoney>
+    </PawnKindDef>
+
+    <!--_____ General _____-->
+
+    <PawnKindDef ParentName="FCP_PRCkindBase">
+        <defName>FCP_Pawnkind_PRC_General</defName>
+        <label>PRC General</label>
+        <labelPlural>PRC Generals</labelPlural>
+        <combatPower>90</combatPower>
+        <gearHealthRange>0.9~1.0</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelRequired>
+            <li>FCP_Apparel_PRC_Jumpsuit_General</li>
+            <li>FCP_Apparel_PRC_Officer_Cap</li>
+        </apparelRequired>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+    </PawnKindDef>
+
+    <!--_____ Logistics Officer _____-->
+
+    <PawnKindDef ParentName="FCP_PRCkindBase">
+        <defName>FCP_Pawnkind_PRC_Logistics_Officer</defName>
+        <label>PRC Logistics Officer</label>
+        <labelPlural>PRC Logistics Officers</labelPlural>
+        <trader>true</trader>
+        <combatPower>50</combatPower>
+        <gearHealthRange>0.8~1.0</gearHealthRange>
+        <apparelMoney>500~800</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_PRC_Casual</li>
+        </apparelTags>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>200~400</weaponMoney>
+        <weaponTags>
+            <li>Gun</li>
+        </weaponTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+    </PawnKindDef>
+
+</Defs>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ PRC Trader Kinds __________-->
+
+    <!-- Prisoner Exchange -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_PRC_Prisoner_Exchange</defName>
+        <label>PRC Prisoner Exchange</label>
+        <category>Slaver</category>
+        <stockGenerators>
+
+            <!--__ Prisoners __-->
+
+            <li Class="StockGenerator_Slaves">
+                <respectPopulationIntent>false</respectPopulationIntent>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <!-- Chinese Yuan -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_PRC_Yuan</thingDef>
+                <countRange>750~1200</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!-- Logistics Officer -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_PRC_Logistics_Officer</defName>
+        <label>PRC Logistics Officer</label>
+        <category>Orbital</category>
+        <stockGenerators>
+
+            <!--__ Military Equipment __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Weapons</categoryDef>
+                <thingDefCountRange>8~12</thingDefCountRange>
+                <countRange>1~3</countRange>
+            </li>
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Apparel</categoryDef>
+                <thingDefCountRange>6~10</thingDefCountRange>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!--__ Resources __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>ResourcesRaw</categoryDef>
+                <thingDefCountRange>4~6</thingDefCountRange>
+                <countRange>20~80</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MedicineIndustrial</thingDef>
+                <countRange>5~15</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>MealSurvivalPack</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_PRC_Yuan</thingDef>
+                <countRange>750~1500</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!-- Captive Exchange -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_PRC_Captive_Exchange</defName>
+        <label>PRC Captive Exchange</label>
+        <category>Slaver</category>
+        <stockGenerators>
+
+            <!--__ Prisoners __-->
+
+            <li Class="StockGenerator_Slaves">
+                <respectPopulationIntent>false</respectPopulationIntent>
+                <countRange>3~6</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_PRC_Yuan</thingDef>
+                <countRange>800~1400</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+    <!-- Black Market Dealer -->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_PRC_Black_Market_Dealer</defName>
+        <label>PRC Black Market Dealer</label>
+        <category>Outlander</category>
+        <stockGenerators>
+
+            <!--__ Black Market Goods __-->
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Drugs</categoryDef>
+                <thingDefCountRange>3~6</thingDefCountRange>
+                <countRange>5~20</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>SmokeleafJoint</thingDef>
+                <countRange>10~30</countRange>
+            </li>
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Weapons</categoryDef>
+                <thingDefCountRange>6~10</thingDefCountRange>
+                <countRange>1~2</countRange>
+            </li>
+
+            <li Class="StockGenerator_Category">
+                <categoryDef>Apparel</categoryDef>
+                <thingDefCountRange>4~8</thingDefCountRange>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_PRC_Yuan</thingDef>
+                <countRange>600~1200</countRange>
+            </li>
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

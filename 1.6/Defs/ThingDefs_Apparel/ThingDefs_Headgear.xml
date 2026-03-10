@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--__________ People's Republic of China __________-->
+
+	<!--_____ PRC Headgear _____-->
+
+	<!--___ Standard Uniforms ___-->
+
+	<!-- Chinese Army Cap -->
+
+	<ThingDef ParentName="FCP_Hat_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Army_Cap</defName>
+		<label>Chinese army cap</label>
+		<description>A simple red cap bearing the golden star emblem of the People's Republic of China. This practical headwear is standard issue for soldiers and low-ranking military personnel of the People's Liberation Army. The bright red fabric and prominent star design display allegiance to the state while providing basic protection from sun and light rain.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Standard_Uniforms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit/FCP_PRC_Jumpsuit_head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Cloth>25</Cloth>
+		</costList>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>0.2</Mass>
+			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+			<Insulation_Cold>2</Insulation_Cold>
+			<Insulation_Heat>3</Insulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit/FCP_PRC_Jumpsuit_head</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Soldier</li>
+				<li>FCP_PRC_Military</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Chinese Officer Cap -->
+
+	<ThingDef ParentName="FCP_Hat_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Officer_Cap</defName>
+		<label>Chinese officer cap</label>
+		<description>A peaked service cap bearing the golden star emblem of the People's Republic of China. This formal headwear is worn by officers and high-ranking officials of the Chinese military. The rigid design and prominent insignia command respect and denote authority, making it a symbol of leadership within the ranks.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Standard_Uniforms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit_General/FCP_PRC_Jumpsuit_General_head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Cloth>35</Cloth>
+			<Steel>5</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Mass>0.3</Mass>
+			<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+			<Insulation_Cold>4</Insulation_Cold>
+			<Insulation_Heat>2</Insulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<NegotiationAbility>0.08</NegotiationAbility>
+			<SocialImpact>0.10</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit_General/FCP_PRC_Jumpsuit_General_head</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Officer</li>
+				<li>FCP_PRC_General</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Chinese Ushanka -->
+
+	<ThingDef ParentName="FCP_Hat_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Ushanka</defName>
+		<label>Chinese ushanka</label>
+		<description>A fur-lined winter cap featuring the iconic red star of the People's Republic of China. This warm ushanka is standard issue for Chinese military personnel operating in cold climates. The ear flaps provide excellent protection against frostbite, while the red exterior proudly displays allegiance to the state.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Standard_Uniforms</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit_Winter/FCP_PRC_Jumpsuit_Winter_head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Cloth>30</Cloth>
+			<WoolMegasloth>10</WoolMegasloth>
+		</costList>
+		<statBases>
+			<WorkToMake>4000</WorkToMake>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Mass>0.4</Mass>
+			<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.02</ArmorRating_Heat>
+			<Insulation_Cold>12</Insulation_Cold>
+			<Insulation_Heat>-2</Insulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Uniforms/Chinese_Jumpsuit_Winter/FCP_PRC_Jumpsuit_Winter_head</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Soldier</li>
+				<li>FCP_PRC_Winter</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+			<li Class="FCP.Core.CompProperties_TemperatureApparelPreference">
+				<forceBelowTempC>4</forceBelowTempC>
+				<avoidAboveTempC>5</avoidAboveTempC>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!--___ Advanced Equipment ___-->
+
+	<!-- Chinese Stealth Helmet -->
+
+	<ThingDef ParentName="FCP_Armor_Helmet_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Stealth_Helmet</defName>
+		<label>Chinese stealth helmet</label>
+		<description>An advanced tactical helmet integrated with Chinese stealth technology. This sleek helmet features a reinforced visor, built-in rebreather, and sensor array. The hermetically sealed design provides protection against environmental hazards and can interface with stealth field systems when worn with compatible armor.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Advanced_Equipment</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Advanced/Chinese_Stealth_Suit/FCP_PRC_Stealth_Suit_head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>35000</WorkToMake>
+			<MaxHitPoints>130</MaxHitPoints>
+			<Mass>0.9</Mass>
+			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.50</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>8</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.10</AimingDelayFactor>
+			<ShootingAccuracyPawn>0.05</ShootingAccuracyPawn>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.25</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Advanced/Chinese_Stealth_Suit/FCP_PRC_Stealth_Suit_head</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Stealth</li>
+				<li>FCP_PRC_Special_Forces</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Rare</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+	</ThingDef>
+
+	<!-- Chinese Naval Cap -->
+
+	<ThingDef ParentName="FCP_Hat_Makeable_Base">
+		<defName>FCP_Apparel_PRC_Naval_Cap</defName>
+		<label>Chinese naval cap</label>
+		<description>A naval service cap worn by submariners and sailors of the People's Liberation Army Navy. This water-resistant cap features the red star emblem and provides protection against ocean spray and harsh weather conditions. The dark navy blue color with red accents is instantly recognizable as belonging to China's naval forces.</description>
+		<recipeMaker>
+			<researchPrerequisite>FCP_Research_PRC_Advanced_Equipment</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Apparel/PRC_Advanced/Chinese_Submariner/FCP_PRC_Submariner_head</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costList>
+			<Cloth>30</Cloth>
+			<Plasteel>5</Plasteel>
+		</costList>
+		<statBases>
+			<WorkToMake>4500</WorkToMake>
+			<MaxHitPoints>65</MaxHitPoints>
+			<Mass>0.3</Mass>
+			<ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.03</ArmorRating_Heat>
+			<Insulation_Cold>6</Insulation_Cold>
+			<Insulation_Heat>4</Insulation_Heat>
+			<EquipDelay>1</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.10</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/PRC_Advanced/Chinese_Submariner/FCP_PRC_Submariner_head</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>FCP_PRC_Navy</li>
+				<li>FCP_PRC_Naval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<comps>
+			<li Class="FCP.Core.CompProperties_LabelColored">
+				<rarity>Common</rarity>
+			</li>
+		</comps>
+		<tradeTags>
+			<li>FCP_Trade_Tag_PRC_Apparel</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>

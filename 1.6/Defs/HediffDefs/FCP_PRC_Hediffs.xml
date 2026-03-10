@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--__________ PRC Hediffs __________-->
+
+	<!-- Chinese Stealth Suit System -->
+
+	<HediffDef>
+		<defName>FCP_Hediff_PRC_Stealth_System</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>stealth field emitter</label>
+		<description>An integrated stealth field system built into Chinese stealth armor. This advanced pre-war technology provides the wearer with active camouflage capabilities through a network of light-bending projectors woven into the suit's fabric.</description>
+		<defaultLabelColor>(0.7, 0.2, 0.2)</defaultLabelColor>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_GiveAbility">
+				<abilityDefs>
+					<li>FCP_Ability_PRC_Stealth_Field</li>
+				</abilityDefs>
+			</li>
+		</comps>
+	</HediffDef>
+
+</Defs>
